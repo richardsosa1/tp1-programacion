@@ -1,0 +1,16 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "name": "los 7 habitos de la gente altamente efectiva ",
+            "autor": " Stephen R. Covey ",
+            "year": 1989
+        },
+        {
+            "id": 2,
+            "title": "cronica de una muerte anunciada",
+            "author": "Gabriel Garcia Marquez",
+            " year ": 1981
+        }
+    ]
+}

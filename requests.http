@@ -1,0 +1,25 @@
+GET http://localhost:3000/books HTTP/1.1
+
+###
+GET http://localhost:3000/books/2 HTTP/1.1
+
+
+###
+POST http://localhost:3000/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "title" : "cronica de una muerte anunciada" ,
+    "author" : "Gabriel Garcia Marquez",  
+    " year " :1981
+}
+###
+PUT http://localhost:3000/books/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "cronica de una muerte anunciada nuevo"
+}
+
+###
+DELETE http://localhost:3000/books/2 HTTP/1.1
